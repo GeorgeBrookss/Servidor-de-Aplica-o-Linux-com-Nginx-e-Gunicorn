@@ -29,7 +29,9 @@ Gerenciamento de Serviços: systemd
 
 ## Instalação e Configuração
 ### Siga os passos abaixo para replicar o ambiente do projeto em uma máquina virtual CentOS.
-#### 1. Preparando o Ambiente do Sistema
+
+
+### 1. Preparando o Ambiente do Sistema
 
 #### Atualize o sistema
 `sudo yum update
@@ -40,7 +42,7 @@ Gerenciamento de Serviços: systemd
 #### Instale o Nginx e dependências do Python
 `sudo yum install python-pip python-devel gcc nginx
 ` 
-#### 2. Configurando a Aplicação Flask
+### 2. Configurando a Aplicação Flask
 
 #### Instale o virtualenv e crie a pasta do projeto
 `sudo pip install virtualenv`
@@ -61,3 +63,17 @@ source myprojectenv/bin/activate
 #### Crie o arquivo da sua aplicação (por exemplo, app.py)
 `vi app.py`
 
+#### Cole o seguinte código no arquivo app.py:
+
+```
+from flask import Flask
+application = Flask(__name__)
+
+@application.route("/")
+def hello():
+    return "<h1 style='color:blue'>Hello World from Nome do Aluno!</h1>"
+
+if __name__ == "__main__":
+    application.run(host='0.0.0.0')
+```
+### 3. Configurando o Gunicorn

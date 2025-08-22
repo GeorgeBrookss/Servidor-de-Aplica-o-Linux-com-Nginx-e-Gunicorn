@@ -3,7 +3,7 @@
 
 Este projeto demonstra a configuração de um ambiente de produção completo para uma aplicação web backend, utilizando um stack de tecnologias comum no mercado. O objetivo principal é servir uma aplicação Flask com o servidor de aplicação Gunicorn, e gerenciar o acesso externo e o balanceamento de carga com o Nginx, tudo rodando em uma máquina virtual Linux CentOS.
 
-O projeto foi desenvolvido para consolidar conhecimentos em:
+### O projeto foi desenvolvido para consolidar conhecimentos em:
 
 Administração de Sistemas Linux: Gerenciamento de pacotes, arquivos, e permissões via linha de comando.
 
@@ -13,7 +13,8 @@ Proxy Reverso e Servidor Web: Utilização do Nginx para otimizar o acesso à ap
 
 Gerenciamento de Serviços: Configuração e controle de processos de background usando systemd.
 
-Tecnologias Utilizadas
+### Tecnologias Utilizadas
+
 Sistema Operacional: CentOS
 
 Linguagem de Programação: Python
@@ -26,5 +27,5 @@ Servidor Web / Proxy Reverso: Nginx
 
 Gerenciamento de Serviços: systemd
 
-Instalação e Configuração
-Siga os passos abaixo para replicar o ambiente do projeto em uma máquina virtual CentOS.
+## Instalação e Configuração
+### Siga os passos abaixo para replicar o ambiente do projeto em uma máquina virtual CentOS.

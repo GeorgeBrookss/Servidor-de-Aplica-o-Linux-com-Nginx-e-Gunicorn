@@ -29,3 +29,14 @@ Gerenciamento de Serviços: systemd
 
 ## Instalação e Configuração
 ### Siga os passos abaixo para replicar o ambiente do projeto em uma máquina virtual CentOS.
+#### 1. Preparando o Ambiente do Sistema
+```
+# Atualize o sistema
+sudo yum update
+
+# Adicione o repositório EPEL
+sudo yum install epel-release
+
+# Instale o Nginx e dependências do Python
+sudo yum install python-pip python-devel gcc nginx
+ ```

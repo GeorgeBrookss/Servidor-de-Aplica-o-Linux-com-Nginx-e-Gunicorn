@@ -178,9 +178,13 @@ sudo systemctl enable nginx
 `10.0.2.15   myproject
 `
 #### Agora, reinicie os serviços e acesse a sua aplicação no navegador.
-`sudo systemctl restart myproject
-sudo systemctl restart nginx
-`
+`sudo systemctl restart myproject`
+`sudo systemctl restart nginx`
 
 Abra o Firefox na sua máquina virtual e acesse: http://myproject
 
+
+
+## Conclusão
+
+### Este projeto demonstra a capacidade de configurar e gerenciar um ambiente de produção real, indo além do simples desenvolvimento de código. A automação com systemd e a otimização de tráfego com Nginx são práticas essenciais para a área de backend e DevOps. Este é um excelente ponto de partida para projetos mais complexos que exijam escalabilidade e robustez.

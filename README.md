@@ -40,3 +40,24 @@ Gerenciamento de Serviços: systemd
 #### Instale o Nginx e dependências do Python
 `sudo yum install python-pip python-devel gcc nginx
 ` 
+#### 2. Configurando a Aplicação Flask
+
+#### Instale o virtualenv e crie a pasta do projeto
+`sudo pip install virtualenv`
+#### Crie e acesse sua pasta de projetos
+```
+cd /home/user/Documents/python
+mkdir myproject
+cd myproject
+```
+#### Crie e ative o ambiente virtual
+```
+virtualenv myprojectenv
+source myprojectenv/bin/activate
+```
+#### Instale as dependências da aplicação
+`pip install gunicorn flask`
+
+#### Crie o arquivo da sua aplicação (por exemplo, app.py)
+`vi app.py`
+

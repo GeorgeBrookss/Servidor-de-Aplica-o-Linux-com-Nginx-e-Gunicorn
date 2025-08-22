@@ -1,1 +1,1 @@
-# Servidor-de-Aplica-o-Linux-com-Nginx-e-Gunicorn
+# Servidor-de-Aplicação-Linux-com-Nginx-e-Gunicorn

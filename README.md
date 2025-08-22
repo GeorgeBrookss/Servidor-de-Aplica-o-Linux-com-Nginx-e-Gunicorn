@@ -187,4 +187,4 @@ Abra o Firefox na sua máquina virtual e acesse: http://myproject
 
 ## Conclusão
 
-### Este projeto demonstra a capacidade de configurar e gerenciar um ambiente de produção real, indo além do simples desenvolvimento de código. A automação com systemd e a otimização de tráfego com Nginx são práticas essenciais para a área de backend e DevOps. Este é um excelente ponto de partida para projetos mais complexos que exijam escalabilidade e robustez.
+#### Este projeto demonstra a capacidade de configurar e gerenciar um ambiente de produção real, indo além do simples desenvolvimento de código. A automação com systemd e a otimização de tráfego com Nginx são práticas essenciais para a área de backend e DevOps. Este é um excelente ponto de partida para projetos mais complexos que exijam escalabilidade e robustez.

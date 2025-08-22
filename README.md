@@ -1,4 +1,4 @@
-# Servidor-de-Aplicação-Linux-com-Nginx-e-Gunicorn
+# Servidor de Aplicação Linux com Nginx & Gunicorn
 ## Descrição do Projeto
 
 Este projeto demonstra a configuração de um ambiente de produção completo para uma aplicação web backend, utilizando um stack de tecnologias comum no mercado. O objetivo principal é servir uma aplicação Flask com o servidor de aplicação Gunicorn, e gerenciar o acesso externo e o balanceamento de carga com o Nginx, tudo rodando em uma máquina virtual Linux CentOS.
